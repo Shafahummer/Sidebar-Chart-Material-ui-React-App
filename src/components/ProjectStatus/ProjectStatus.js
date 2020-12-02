@@ -8,31 +8,44 @@ const ProjectStatus = () => {
                 <div className="col-md-12">
                     <div className="card p-4">
                         <h6>Projects of the Month</h6>
-                        <div>Overview of Latest Month</div>
-                        <div className="row">
-                            <div className="col-3">Team Lead</div>
-                            <div className="col-3">Project</div>
-                            <div className="col-2">Status</div>
-                            <div className="col-2">Weeks</div>
-                            <div className="col-2">Budget</div>
+                        <div className="mb-4">Overview of Latest Month</div>
+
+                        <div className="table-responsive">
+                            <table className="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col-3">Team Lead</th>
+                                        <th scope="col-3">Project</th>
+                                        <th scope="col-2">Status</th>
+                                        <th scope="col-2">Weeks</th>
+                                        <th scope="col-2">Budget</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row col-3">John</th>
+                                        <td scope="col-3">Project1</td>
+                                        <td scope="col-2">Inprogress</td>
+                                        <td scope="col-2">24</td>
+                                        <td scope="col-2">$2000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row col-3">Rahul</th>
+                                        <td scope="col-3">Project2</td>
+                                        <td scope="col-2">Completed</td>
+                                        <td scope="col-2">45</td>
+                                        <td scope="col-2">$5000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row col-3">Sam</th>
+                                        <td scope="col-3">Project3</td>
+                                        <td scope="col-2">Pending</td>
+                                        <td scope="col-2">5</td>
+                                        <td scope="col-2">$1000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        <div className="hr"></div>
-                        <div className="row">
-                            <div className="col-3">John</div>
-                            <div className="col-3">Project1</div>
-                            <div className="col-2">Inprogress</div>
-                            <div className="col-2">30</div>
-                            <div className="col-2">2000$</div>
-                        </div>
-                        <div className="hr"></div>
-                        <div className="row">
-                            <div className="col-3">Rahul</div>
-                            <div className="col-3">Project2</div>
-                            <div className="col-2">completed</div>
-                            <div className="col-2">40</div>
-                            <div className="col-2">4000$</div>
-                        </div>
-                        <div className="hr"></div>
                     </div>
                 </div>
             </div>
@@ -51,7 +64,7 @@ const ProjectStatus = () => {
 
                 <div className="col-md-4 my-4">
                     <div className="card">
-                        <img className="card-img-top" src="https://images.pexels.com/photos/5512749/pexels-photo-5512749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
+                        <img className="card-img-top" src="https://images.pexels.com/photos/5485967/pexels-photo-5485967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -62,7 +75,7 @@ const ProjectStatus = () => {
 
                 <div className="col-md-4 my-4">
                     <div className="card">
-                        <img className="card-img-top" src="https://images.pexels.com/photos/5512749/pexels-photo-5512749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
+                        <img className="card-img-top" src="https://images.pexels.com/photos/3464632/pexels-photo-3464632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
